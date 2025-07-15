@@ -9,4 +9,8 @@ function divide(a, b) {
   return -1;
 }
 
-module.exports = { add, divide };
+function multiply(a, b) {
+  return a * b;
+}
+
+module.exports = { add, divide, multiply };
